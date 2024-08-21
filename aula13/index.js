@@ -9,7 +9,7 @@ console.log(umaString.charAt(4)); // t
 // 1 - Quando informado apenas o argumento que se está buscando.
 console.log(umaString.indexOf('texto')); // 4
 
-// 2 - Se informado o sgundo argumento(número), a busca será efetuada somente a partir desse índice
+// 2 - Se informado o segundo argumento(número), a busca será efetuada somente a partir desse índice
 console.log(umaString.indexOf('t', 5)); // 7 aqui o 't' identificado é o segundo 't' de 'texto'
 
 // lastIndexOf: método que diz qual o indice que inicia o argumento informado,

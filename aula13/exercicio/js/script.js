@@ -13,7 +13,7 @@ const segundaLetra = nomeSemEspaco.charAt(1);
 document.body.innerHTML += `A segunda letra do seu nome é: <strong>${segundaLetra}</strong>.<br />`;
 
 // Qual o primeiro índice da letra 'a' no seu nome? ______
-const indiceLetraA = nome.search('a');
+const indiceLetraA = nome.indexOf('a');
 document.body.innerHTML += `Qual o primeiro índice da letra 'a' no seu nome? <strong>${indiceLetraA}</strong><br />`;
 
 // Qual o último índice da letra LETRA no seu nome? ______
